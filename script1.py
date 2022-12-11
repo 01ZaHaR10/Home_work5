@@ -13,6 +13,6 @@ def check(password):
 password = input("Придумайте пароль: ")
 
 if check(password):
-    print("Пароль прошёл проверку.")
+    print(f"Пароль({password}) прошёл проверку.")
 else:
-    print("Пароль не удовлетворяет условиям!")
+    print(f"Пароль({password}) не удовлетворяет условиям!")
